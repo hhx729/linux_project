@@ -30,3 +30,5 @@ bool daemonize() {
     open("/dev/null", O_RDWR);
     return true;
 }
+
+//有库函数int daemon(int nochdir, int noclose);
